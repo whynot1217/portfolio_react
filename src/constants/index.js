@@ -63,7 +63,7 @@ export const siteText = [
         view: "https://arbor0428.github.io/hospital_chart/admin/index.html",
     },
     {
-        code: "https://github.com/arbor0428/hospital_chart",
+        code: "https://github.com/arbor0428/highchart_stock",
         text: ["#HTML5", "#CSS3", "#JQUERY", "#PHP", "#HIGHCHART.JS"],
         img: site03,
         title: "마이셀프스탁",
