@@ -12,32 +12,40 @@ const Site = () => {
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
     
-        // 페이지 로딩이 완료된 후에 스크롤을 상단으로 이동시킵니다.
-        //window.scrollTo(0, 0);
+        const mm = ScrollTrigger.matchMedia();
     
-        if (window.innerWidth >= 1030) {
-            const horizontal = horizontalRef.current;
-            const sections = sectionRef.current;
-    
-            let scrollTween = gsap.to(sections, {
-                xPercent: -120 * (sections.length - 1),
-                ease: "none",
-                scrollTrigger: {
-                    trigger: horizontal,
-                    start: "-50px 100px",
-                    end: () => "+=" + horizontal.offsetWidth,
-                    pin: true,
-                    scrub: 1,
-                    markers: false,
-                    invalidateOnRefresh: true,
-                    anticipatePin: 1,
-                }
-            });
-    
-            return () => {
-                scrollTween.kill(); // ScrollTrigger 설정 제거
-            };
-        }
+        mm.add("(min-width: 1030px)", () => {
+          const horizontal = horizontalRef.current;
+          const sections = sectionRef.current;
+        
+          // 혹시 ref가 아직 덜 찼을 때 방어
+          if (!horizontal || !sections?.length) return;
+        
+          const tween = gsap.to(sections, {
+            xPercent: -120 * (sections.length - 1),
+            ease: "none",
+            scrollTrigger: {
+              trigger: horizontal,
+              start: "-50px 100px",
+              end: () => "+=" + horizontal.offsetWidth,
+              pin: true,
+              scrub: 1,
+              markers: false,
+              invalidateOnRefresh: true,
+              anticipatePin: 1,
+            },
+          });
+        
+          // matchMedia가 조건 깨질 때 자동으로 cleanup 호출함
+          return () => {
+            tween.kill();
+            // 혹시 남아있는 trigger까지 확실히 정리
+            ScrollTrigger.getAll().forEach((t) => t.kill());
+          };
+        });
+        
+        // 전체 언마운트 시 matchMedia 정리
+        return () => mm.kill();
     }, []);
 
 
