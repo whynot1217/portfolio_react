@@ -12,7 +12,7 @@ const Header = () => {
         <header id="header" role="banner">
             <div className="header__inner">
                 <div className="header__ver">
-                    <p>2024</p>
+                    <p>2025</p>
                 </div>
                 <h2 className="header__tit">Portfolio</h2>
                 <button className={`header__mobile-menu-btn ${isMobileMenuOpen ? 'open' : ''}`} onClick={toggleMobileMenu} aria-label="Toggle menu">
