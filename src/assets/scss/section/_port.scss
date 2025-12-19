@@ -283,6 +283,13 @@
 
                         .content li {
                             margin: 14px 0;
+
+                            br {
+                                display: none;
+                            }
+                            @media (max-width: 576px) {
+                                display: block;
+                            }
                         }
                     }
 
