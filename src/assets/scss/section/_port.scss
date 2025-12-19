@@ -286,9 +286,9 @@
 
                             br {
                                 display: none;
-                            }
-                            @media (max-width: 576px) {
-                                display: block;
+                                @media (max-width: 576px) {
+                                   display: block;
+                                }
                             }
                         }
                     }
