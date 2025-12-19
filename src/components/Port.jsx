@@ -91,7 +91,7 @@ const Port = () => {
                                         <li>2024.06 ~ 현재</li>
                                     </ul>
                                     <ul className="content">
-                                        <li>(주)아이웹 <br> 1팀</li>
+                                        <li>(주)아이웹 <br> 개발 1팀</li>
                                         <li>메가스터디교육 공무원사업부(現 넥스트스터디)</li>
                                     </ul>
                                 </div>
