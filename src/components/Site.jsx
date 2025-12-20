@@ -86,7 +86,17 @@ const Site = () => {
                             ref={(el) => (sectionRef.current[key] = el)}
                         >
                             <div className="image">
-                                <a href={site.code} rel="noreferrer noopener">
+                                <a
+                                  href={site.code || "#"}
+                                  target="_blank"
+                                  rel="noreferrer noopener"
+                                  onClick={(e) => {
+                                    if (site.onCodeClick) {
+                                      e.preventDefault(); // 이동 막고
+                                      site.onCodeClick(); // alert 실행
+                                    }
+                                  }}
+                                >
                                     <div className="hoverbx">
                                         <p>코드보기</p>
                                     </div>  
