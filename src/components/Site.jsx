@@ -86,7 +86,7 @@ const Site = () => {
                             ref={(el) => (sectionRef.current[key] = el)}
                         >
                             <div className="image">
-                                <a href={site.code} target="_blank" rel="noreferrer noopener">
+                                <a href={site.code} rel="noreferrer noopener">
                                     <div className="hoverbx">
                                         <p>코드보기</p>
                                     </div>  
