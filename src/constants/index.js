@@ -19,22 +19,6 @@ import site14 from "../assets/img/homepage16.png";
 export const siteText = [
     {
         onCodeClick: () => alert('보안 정책에 따라 해당 소스 코드는 공개할 수 없습니다.'),
-        text: ["#HTML5", "#CSS3", "#JQUERY", "#ASP"],
-        img: site13,
-        title: "메가공무원 (現 넥스트공무원)",
-        detail01:"공무원·소방·자격증·학원 등 7개 사이트 퍼블리싱 및 운영",
-        detail02:"Classic ASP 기반 환경에서 이벤트/기획전/모의고사/풀서비스/패스/직렬·직무 소개 등 다양한 페이지를 제작 및 유지보수",
-        info: [
-            "2023.05 ~ 재직중",
-            "기획·디자인·개발 부서 협업",
-            "퍼블리싱/운영/구조개선 전반 참여",
-            "메인, 나의 강의실, 마이페이지 반응형 퍼블리싱 및 UI 인터랙션 구현"
-        ],
-        view: "https://www.megagong.net/megagong.asp",
-    },
-    {
-        num: 3,
-        onCodeClick: () => alert('보안 정책에 따라 해당 소스 코드는 공개할 수 없습니다.'),
         text: ["#HTML5", "#CSS3", "#JAVASCRIPT", "#ASP", "#FIREBASE"],
         img: site14,
         title: "메가공무원 공통 컴포넌트 시스템 (NC)",
@@ -47,6 +31,22 @@ export const siteText = [
             "데이터 기반 공통 컴포넌트 NC 구축 참여로 신규 이벤트 페이지 제작 효율 향상"
         ],
         view: "https://megagong.syw.kr/nc",
+    },
+    {
+        num: 3,
+        onCodeClick: () => alert('보안 정책에 따라 해당 소스 코드는 공개할 수 없습니다.'),
+        text: ["#HTML5", "#CSS3", "#JQUERY", "#ASP"],
+        img: site13,
+        title: "메가공무원 (現 넥스트공무원)",
+        detail01:"공무원·소방·자격증·학원 등 7개 사이트 퍼블리싱 및 운영",
+        detail02:"Classic ASP 기반 환경에서 이벤트/기획전/모의고사/풀서비스/패스/직렬·직무 소개 등 다양한 페이지를 제작 및 유지보수",
+        info: [
+            "2023.05 ~ 재직중",
+            "기획·디자인·개발 부서 협업",
+            "퍼블리싱/운영/구조개선 전반 참여",
+            "메인, 나의 강의실, 마이페이지 반응형 퍼블리싱 및 UI 인터랙션 구현"
+        ],
+        view: "https://www.megagong.net/megagong.asp",
     },
     {
         num: 3,
