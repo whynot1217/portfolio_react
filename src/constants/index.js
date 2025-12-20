@@ -19,7 +19,7 @@ import site14 from "../assets/img/homepage16.png";
 export const siteText = [
     {
         num: 3,
-        code: "javascript:alert('보안 정책에 따라 해당 소스 코드는 공개할 수 없습니다.');",
+        onCodeClick: () => alert('보안 정책에 따라 해당 소스 코드는 공개할 수 없습니다.'),
         text: ["#HTML5", "#CSS3", "#JAVASCRIPT", "#ASP", "#FIREBASE",],
         img: site14,
         title: "메가공무원 공통 컴포넌트 시스템 (NC)",
@@ -34,7 +34,7 @@ export const siteText = [
         view: "https://megagong.syw.kr/nc",
     },
     {
-        code: "javascript:alert('보안 정책에 따라 해당 소스 코드는 공개할 수 없습니다.');",
+        onCodeClick: () => alert('보안 정책에 따라 해당 소스 코드는 공개할 수 없습니다.'),
         text: ["#HTML5", "#CSS3", "#ASP"],
         img: site13,
         title: "메가공무원 (現 넥스트공무원)",
