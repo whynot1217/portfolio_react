@@ -18,6 +18,7 @@ import site14 from "../assets/img/homepage16.png";
 
 export const siteText = [
     {
+        num: 3,
         onCodeClick: () => alert('보안 정책에 따라 해당 소스 코드는 공개할 수 없습니다.'),
         text: ["#HTML5", "#CSS3", "#JAVASCRIPT", "#ASP", "#FIREBASE"],
         img: site14,
@@ -33,7 +34,6 @@ export const siteText = [
         view: "https://megagong.syw.kr/nc",
     },
     {
-        num: 3,
         onCodeClick: () => alert('보안 정책에 따라 해당 소스 코드는 공개할 수 없습니다.'),
         text: ["#HTML5", "#CSS3", "#ASP"],
         img: site13,
