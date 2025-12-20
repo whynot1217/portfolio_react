@@ -10,11 +10,44 @@ import site09 from "../assets/img/homepage09.png";
 import site10 from "../assets/img/homepage10.png";
 import site11 from "../assets/img/homepage11.png";
 import site12 from "../assets/img/homepage12.png";
+import site13 from "../assets/img/homepage15.png";
+import site14 from "../assets/img/homepage16.png";
 //import site13 from "../assets/img/homepage13.png";
 //import site14 from "../assets/img/homepage14.png";
 
 
 export const siteText = [
+    {
+        num: 3,
+        code: "javascript:alert('보안 정책에 따라 해당 소스 코드는 공개할 수 없습니다.');",
+        text: ["#HTML5", "#CSS3", "#JAVASCRIPT", "#ASP", "#FIREBASE",],
+        img: site14,
+        title: "메가공무원 공통 컴포넌트 시스템 (NC)",
+        detail01:"메가공무원 교육 서비스 전반에 사용되는 공통 UI 컴포넌트 시스템 구축 프로젝트입니다.",
+        detail02:"Classic ASP 환경에서 Firebase를 활용한 데이터 기반 공통 UI 컴포넌트 구조를 설계·표준화했습니다.",
+        info: [
+            "2024.06 ~ 현재,
+            "퍼블리싱팀",
+            "NS 대시보드 기반 SEO 최적화(메타 태그/시맨틱 마크업/노출 구조 개선) 구축 참여",
+            "데이터 기반 공통 컴포넌트 NC 구축 참여로 신규 이벤트 페이지 제작 효율 향상"
+        ],
+        view: "https://megagong.syw.kr/nc",
+    },
+    {
+        code: "javascript:alert('보안 정책에 따라 해당 소스 코드는 공개할 수 없습니다.');",
+        text: ["#HTML5", "#CSS3", "#ASP"],
+        img: site13,
+        title: "메가공무원 (現 넥스트공무원)",
+        detail01:"공무원·소방·자격증·학원 등 7개 사이트 퍼블리싱 및 운영",
+        detail02:"Classic ASP 기반 환경에서 이벤트/기획전/모의고사/풀서비스/패스/직렬·직무 소개 등 다양한 페이지를 제작 및 유지보수",
+        info: [
+            "2023.05 ~ 재직중",
+            "기획·디자인·개발 부서 협업",
+            "퍼블리싱/운영/구조개선 전반 참여",
+            "메인, 나의 강의실, 마이페이지 반응형 퍼블리싱 및 UI 인터랙션 구현"
+        ],
+        view: "https://www.megagong.net/megagong.asp",
+    },
     {
         num: 3,
         code: "https://github.com/arbor0428/class_video_shop",
