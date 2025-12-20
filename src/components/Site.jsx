@@ -60,6 +60,7 @@ const Site = () => {
                 <h3>CONTENTS</h3>
                 <div className="content__list">
                     <ul>
+                        <li>메가스터디교육 공무원사업본부(現 넥스트스터디)<span>(2024.06 ~ 현재)</span></li>
                         <li>롯데헬스케어 <span>(2022.08 ~ 2023.01)</span></li>
                         <li>준차트 <span>(2022.07 ~ 2022.12)</span></li>
                         <li>마이셀프스탁 <span>(2022.05 ~ 2023.01)</span></li>
