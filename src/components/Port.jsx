@@ -88,11 +88,13 @@ const Port = () => {
                                 <div className="infobox__bot">
                                     <ul className="title">
                                         <li>2021.10 ~ 2023.05</li>
-                                        <li>2024.06 ~ 현재</li>
+                                        <li>2024.06 ~ 2025.12</li>
+                                        <li>2026.01 ~ 현재</li>
                                     </ul>
                                     <ul className="content">
                                         <li>(주)아이웹 <br /> 개발 1팀</li>
-                                        <li>메가스터디교육 공무원사업부(現 넥스트스터디)</li>
+                                        <li>메가스터디교육(주) 공무원사업부(現 넥스트스터디)</li>
+                                        <li>메가엠디(주)</li>
                                     </ul>
                                 </div>
                             </div>
