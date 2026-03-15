@@ -50,7 +50,7 @@ export const siteText = [
     },
     {
         num: 3,
-        code: "https://github.com/arbor0428/class_video_shop",
+        code: "https://github.com/whynot1217/class_video_shop",
         text: ["#HTML5", "#CSS3", "#JQUERY", "#PHP"],
         img: site04,
         title: "에듀핌",
@@ -65,7 +65,7 @@ export const siteText = [
         view: "https://www.edupimcampus.com/",
     },
     {
-        code: "https://github.com/arbor0428/video_effect_site",
+        code: "https://github.com/whynot1217/video_effect_site",
         text: ["#HTML5", "#CSS3", "#JQUERY", "#RESPONSIVE", "#FULLPAGE"],
         img: site05,
         title: "크로브",
@@ -81,7 +81,7 @@ export const siteText = [
     },
     {
         num: 3,
-        code: "https://github.com/arbor0428/hospital_chart",
+        code: "https://github.com/whynot1217/hospital_chart",
         text: ["#HTML5", "#CSS3", "#JQUERY", "#PHP"],
         img: site02,
         title: "준차트",
@@ -96,7 +96,7 @@ export const siteText = [
         view: "https://arbor0428.github.io/hospital_chart/admin/index.html",
     },
     {
-        code: "https://github.com/arbor0428/highchart_stock",
+        code: "https://github.com/whynot1217/highchart_stock",
         text: ["#HTML5", "#CSS3", "#JQUERY", "#PHP", "#HIGHCHART.JS"],
         img: site03,
         title: "마이셀프스탁",
@@ -111,7 +111,7 @@ export const siteText = [
         view: "http://myselfstock.com/",
     },
     {
-        code: "https://github.com/arbor0428/healthcare_eventpage",
+        code: "https://github.com/whynot1217/healthcare_eventpage",
         text: ["#HTML5", "#CSS3", "#RESPONSIVE", "#JQUERY", "#PHP"],
         img: site01,
         title: "롯데헬스케어",
@@ -126,7 +126,7 @@ export const siteText = [
         view: "https://www.lottehealthcare.com/kr/main",
     },
     {
-        code: "https://github.com/arbor0428/usim_site",
+        code: "https://github.com/whynot1217/usim_site",
         text: ["#HTML5", "#CSS3", "#JQUERY", "#RESPONSIVE", "#PHP"],
         img: site06,
         title: "한패스모바일",
@@ -142,7 +142,7 @@ export const siteText = [
     },
     {
         num: 3,
-        code: "https://github.com/arbor0428/child_education",
+        code: "https://github.com/whynot1217/child_education",
         text: ["#HTML5", "#CSS3", "#JQUERY", "#RESPONSIVE"],
         img: site07,
         title: "세이펜",
@@ -172,7 +172,7 @@ export const siteText = [
         view: "https://www.efac.or.kr/",
     },
     {
-        code: "https://github.com/arbor0428/institution",
+        code: "https://github.com/whynot1217/institution",
         text: ["#HTML5", "#CSS3", "#JQUERY", "#RESPONSIVE", "#PHP"],
         img: site09,
         title: "광운대산학협력단",
@@ -187,7 +187,7 @@ export const siteText = [
         view: "https://iacf.kw.ac.kr/",
     },
     {
-        code: "https://github.com/arbor0428/abroadinfo",
+        code: "https://github.com/whynot1217/abroadinfo",
         text: ["#HTML5", "#CSS3", "#JQUERY", "#RESPONSIVE", "#PHP"],
         img: site10,
         title: "해외지식가이드북",
@@ -202,7 +202,7 @@ export const siteText = [
         view: "https://arbor0428.github.io/abroadinfo/index.html",
     },
     {
-        code: "https://github.com/arbor0428/fashion_info_site",
+        code: "https://github.com/whynot1217/fashion_info_site",
         text: ["#HTML5", "#CSS3", "#JQUERY", "#RESPONSIVE", "#PHP"],
         img: site11,
         title: "스타일 세븐",
@@ -217,7 +217,7 @@ export const siteText = [
         view: "https://arbor0428.github.io/fashion_info_site/checkList.html",
     },
     {
-        code: "https://github.com/arbor0428/ready-mixed_concrete",
+        code: "https://github.com/whynot1217/ready-mixed_concrete",
         text: ["#HTML5", "#CSS3", "#JQUERY", "#RESPONSIVE", "#PHP"],
         img: site12,
         title: "흥국산업",
@@ -240,7 +240,7 @@ export const practiceText = [
     {
         num:'01',
         title: "공공 데이터 api 연습",
-        code: "https://github.com/arbor0428/WeatherWithPuppy",
+        code: "https://github.com/whynot1217/WeatherWithPuppy",
         view: "https://bucolic-capybara-bfaced.netlify.app/",
         info: [
             "axios를 활용하여 API 데이터 fetching",
@@ -251,7 +251,7 @@ export const practiceText = [
     {
         num:'02',
         title: "투두리스트",
-        code: "https://github.com/arbor0428/typescript_todolist",
+        code: "https://github.com/whynot1217/typescript_todolist",
         view: "https://tiny-salamander-d72637.netlify.app/",
         info:  [
             "datepicker를 활용한 날짜 선택/변경.",
@@ -265,7 +265,7 @@ export const practiceText = [
     {
         num:'03',
         title: "유튜브 어플리케이션",
-        code: "https://github.com/arbor0428/react_youtube",
+        code: "https://github.com/whynot1217/react_youtube",
         view: "https://master--flourishing-lebkuchen-fcb261.netlify.app/",
         info:  [
             "react-router-dom의 useNavigate, useParams를 이용한 검색 form 구현.",
@@ -277,7 +277,7 @@ export const practiceText = [
     {
         num:'04',
         title: "쇼핑몰 프로젝트",
-        code: "https://github.com/arbor0428/shoppy",
+        code: "https://github.com/whynot1217/shoppy",
         view: "https://resilient-selkie-38c036.netlify.app/",
         info:  [
             "react-router-dom의 link태그를 이용하여 페이지 이동 처리 및 보호된 경로 설정.",
